@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+.light {
+    animation: bulb-light 1s infinite alternate;
+}
+
+@keyframes bulb-light {
+    0%{
+        fill: rgba(255, 255, 0, 0);
+    }
+    10% {
+        fill: rgba(255, 255, 0, 0.116);
+    }
+    20% {
+        fill: rgba(255, 255, 0, 0.205);
+    }
+    30% {
+        fill: rgba(255, 255, 0, 0.308);
+    }
+    40% {
+        fill: rgba(255, 255, 0, 0.411);
+    }
+    50% {
+        fill: rgba(255, 255, 0, 0.514);
+    }
+    60% {
+        fill: rgba(255, 255, 0, 0.616);
+    }
+    70% {
+        fill: rgba(255, 255, 0, 0.753);
+    }
+    80% {
+        fill: rgba(255, 255, 0, 0.829);
+    }
+    90% {
+        fill: rgba(255, 255, 0, 0.9);
+    }
+    100% {
+        fill: rgb(255, 255, 0);
+    }
+}

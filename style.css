@@ -47,3 +47,21 @@ body {
         fill: rgb(255, 255, 0);
     }
 }
+
+section {
+    height: 100vh;
+}
+
+#mic {
+    animation: micdrop 5s infinite;   
+    transform-origin: unset;
+    animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite;
+}
+@keyframes slide-bottom {
+  0% {
+            transform: translateY(0);
+  }
+  100% {
+            transform: translateY(100px);
+  }
+}
